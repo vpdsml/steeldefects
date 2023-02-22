@@ -9,15 +9,16 @@ Problem:
 
 ## Dataset
 The dataset is part of a Kaggle challenge where the main goal is to predict location and type of defect found in steel manufacturing.
-There are 18.1k total images (.jpg): 70% training / 30% test. Each image may have no defects, a defect of a single class or
-defects of multiple classes denoted by `ClassID = [1,2,3,4]`. There is a labeled dataset (train.csv): each `ImageId` has a set of encoded pixels (Segments) that belong to a particular `ClassId`.
+There are 18.1k total images (.jpg): 70% training / 30% test. 
+- Each image may have no defects, a defect of a single class or defects of multiple classes denoted by `ClassID = [1,2,3,4]`. 
+- There is a labeled dataset (train.csv): each `ImageId` has a set of encoded pixels (Segments) that belong to a particular `ClassId`.
 
 ## Modeling Approach
-This is a classification problem:
+Goals (classification problem)
 - First pass: determine whether there is a defect or no defect in an image
 - Second pass: determine defect ClassId in segmented pixels in an image
 
-Cost functions:
+Cost functions
 - Binary Cross-entropy (BCE)
 - Dice, IoU (Intersection over Unions)
 
