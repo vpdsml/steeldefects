@@ -1,6 +1,6 @@
 # steeldefects
 ## Description
-Detecting defects in manufacturing processes in typically performed manually. In this repository, we explore computer vision methods to detect different classes of steel defects using a dataset provided by [Severstal](https://www.kaggle.com/competitions/severstal-steel-defect-detection/data). See our presentation provided in the repository for an initial project pitch. 
+Detecting defects in manufacturing processes in typically performed manually. In this repository, we explore computer vision methods to detect different classes of steel defects using a dataset provided by [Severstal](https://www.kaggle.com/competitions/severstal-steel-defect-detection/data). See our presentation provided in the 'doc' directory for an initial project pitch. 
 
 Problem:
 - Steel strips contain different categories of defects on the surface. e.g., crazing, inclusion, scratches, and rolled-in scale
